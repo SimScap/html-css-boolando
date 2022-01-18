@@ -12,10 +12,15 @@ header{
     
 }
 
+.relativ{
+    position: relative;
+}
+
+.absolut{
+    position: absolute;
+}
 .text{
-   position:absolute;
-   top: 400px;
-   
+    top: 400px;
 }
 
 .row2{
@@ -27,24 +32,45 @@ header{
 }
 
 .product1{
-    background-image: url('../img/1b.webp');
+    background-image: url('../img/1.webp');
 }
 
 .product2{
-    background-image: url('../img/2b.webp');
+    background-image: url('../img/2.webp');
 }
 .product3{
-    background-image: url('../img/3b.webp');
+    background-image: url('../img/3.webp');
 }
 .product4{
-    background-image: url('../img/4b.webp');
+    background-image: url('../img/4.webp');
 }
 .product5{
-    background-image: url('../img/5b.webp');
+    background-image: url('../img/5.webp');
 }
 .product6{
+    background-image: url('../img/6.webp');
+}
+
+.product1:hover{
+    background-image: url('../img/1b.webp');
+}
+
+.product2:hover{
+    background-image: url('../img/2b.webp');
+}
+.product3:hover{
+    background-image: url('../img/3b.webp');
+}
+.product4:hover{
+    background-image: url('../img/4b.webp');
+}
+.product5:hover{
+    background-image: url('../img/5b.webp');
+}
+.product6:hover{
     background-image: url('../img/6b.webp');
 }
+
 
 
 
@@ -66,6 +92,10 @@ header{
     padding: 8px;
     font-size: 20px;
     z-index: 2;
+}
+
+*.heart:hover{
+    color: red;
 }
 
 .discount{
@@ -103,3 +133,11 @@ section{
 .hide{
     display: none;
 }
+
+.sustain-on-side{           
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+}
+
+
