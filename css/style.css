@@ -6,10 +6,7 @@
 
 header{
     margin:200px auto;
-    width: 900px;
-    position: relative;
-
-    
+    width: 900px;    
 }
 
 .relativ{
@@ -81,22 +78,22 @@ header{
     position: relative;
     top: 20px;
     margin-left: 20px;
+    
+}
+section{
+    display: inline-block;
 }
 
-
-.heart{
+.heart{ 
     position: absolute;
     right: 0;
     top: 20px;
     background-color: white;
     padding: 8px;
     font-size: 20px;
-    z-index: 2;
 }
 
-*.heart:hover{
-    color: red;
-}
+
 
 .discount{
     position: absolute;
@@ -115,9 +112,7 @@ header{
     padding: 3px;
 }
 
-section{
-    display: inline-block;
-}
+
 
 .red-price {
     color: red;
