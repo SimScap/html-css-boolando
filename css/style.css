@@ -68,9 +68,6 @@ header{
     background-image: url('../img/6b.webp');
 }
 
-
-
-
 .product-custom{
     width: 270px;
     height: 400px;
@@ -78,7 +75,6 @@ header{
     position: relative;
     top: 20px;
     margin-left: 20px;
-    
 }
 section{
     display: inline-block;
@@ -91,9 +87,13 @@ section{
     background-color: white;
     padding: 8px;
     font-size: 20px;
+    transition: all 400ms ease-in-out;
 }
 
-
+.heart:hover{
+    color: red;
+    cursor: pointer;
+}
 
 .discount{
     position: absolute;
@@ -111,8 +111,6 @@ section{
     color: white;
     padding: 3px;
 }
-
-
 
 .red-price {
     color: red;
@@ -134,5 +132,4 @@ section{
     left: 0px;
     bottom: 10px;
 }
-
 
