@@ -87,17 +87,13 @@ section{
     background-color: white;
     padding: 8px;
     font-size: 20px;
-    transition: all 400ms ease-in-out;
     z-index: 1;
+    cursor: pointer;
 }
 .product-custom:hover .heart{
     display: inline-block;
     z-index: 3;
-}
-
-.heart:hover{
     color: red;
-    cursor: pointer;
 }
 
 .discount{
