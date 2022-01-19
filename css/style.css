@@ -9,10 +9,6 @@ header{
     width: 900px;    
 }
 
-.relativ{
-    position: relative;
-}
-
 .absolut{
     position: absolute;
 }
@@ -76,11 +72,15 @@ header{
     top: 20px;
     margin-left: 20px;
 }
+
+
+
 section{
     display: inline-block;
 }
 
 .heart{ 
+    display: none;
     position: absolute;
     right: 0;
     top: 20px;
@@ -88,6 +88,11 @@ section{
     padding: 8px;
     font-size: 20px;
     transition: all 400ms ease-in-out;
+    z-index: 1;
+}
+.product-custom:hover .heart{
+    display: inline-block;
+    z-index: 3;
 }
 
 .heart:hover{
